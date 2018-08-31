@@ -37,22 +37,22 @@ Plugin::load('CakeExcel', ['bootstrap' => true, 'routes' => true]);
             $export->exportFile($fileName, $headerRow, $data_export,FILE_PDF,'Admin User List');
         } 
 <br>
- <?php 
+
         echo $this->Html->link($this->Html->image('csv.png',['style' => "Width:25px;height:25px;"]),
             ['controller' => $controller, 'action' => $action,2],
             ['title' => 'Download CSV','escape' => false,'class' => 'dwn-csv']
         );
-    ?>
-    <?php 
+   
+    
         echo $this->Html->link($this->Html->image('excel.png',['style' => "Width:25px;height:25px;"]),
             ['controller' => $controller, 'action' => $action,4],
             ['title' => 'Download Excel','escape' => false,'class' => 'dwn-excel']
         );
-    ?>
-    <?php 
+   
+   
         echo $this->Html->link($this->Html->image('pdf.png',['style' => "Width:25px;height:25px;"]),
             ['controller' => $controller, 'action' => $action,3],
             ['title' => 'Download PDF','escape' => false,'class' => 'dwn-pdf']
         );
-    ?>
+   
 
