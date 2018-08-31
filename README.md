@@ -2,8 +2,8 @@
 
 Export File can be export the pdf,csv,excel and this only compatible whith cakephp 3.* version.
 
-<b>Instalation</b>
-composer require dakota/cake-excel
+<b>Instalation</b><br>
+composer require dakota/cake-excel<br>
 composer require tecnickcom/tcpdf
 
 
