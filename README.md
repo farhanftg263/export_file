@@ -1,6 +1,7 @@
 # export_file[pdf,csv,excel]
 
-Export File can be export the pdf,csv,excel and this only compatible whith cakephp 3.* version.
+Export File can be export the pdf,csv,excel and this only compatible whith cakephp 3.* version.<br>
+Impotence of this library is not to use any resource file like HTML to export pdf,csv,excel.<br>
 
 <b>Instalation</b><br>
 composer require dakota/cake-excel<br>
@@ -8,7 +9,7 @@ composer require tecnickcom/tcpdf
 
 
 Enable Plugin
-Load the plugin in your app's config/bootstrap.php file:
+Load the plugin in your app's config/bootstrap.php file:<br>
 Plugin::load('CakeExcel', ['bootstrap' => true, 'routes' => true]); 
 
 
