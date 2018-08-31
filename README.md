@@ -1,7 +1,7 @@
 # export_file[pdf,csv,excel]
 
 Export File can be export the pdf,csv,excel and this only compatible whith cakephp 3.* version.<br>
-Impotence of this library is not to use any resource file like HTML to export pdf,csv,excel.<br>
+<b>Importence of this library is not to use any resource file like HTML to export pdf,csv,excel.</b><br>
 
 <b>Instalation</b><br>
 composer require dakota/cake-excel<br>
