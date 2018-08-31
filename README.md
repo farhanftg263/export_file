@@ -12,7 +12,7 @@ Load the plugin in your app's config/bootstrap.php file:
 Plugin::load('CakeExcel', ['bootstrap' => true, 'routes' => true]); 
 
 
-1: Pull export.php file inside the config/ folder of cakephp
+1: Pull export.php file inside the config/ folder of cakephp<br>
 2: Import export.php file from bootstrap.php : 
 	require_once('export.php')
 3:Call from your Controller's action
